@@ -5,6 +5,7 @@ $(document).ready(function () {
 
     $('#botao-cancelar').click(function () {
         $('form').slideUp();
+        $('#nova-tarefa').val(''); // Limpa o campo de entrada
     });
 
     $('form').on('submit', function (e) {
